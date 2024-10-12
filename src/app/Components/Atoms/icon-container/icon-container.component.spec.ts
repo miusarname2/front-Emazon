@@ -1,6 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { IconContainerComponent } from './icon-container.component';
-import { IconWrapperComponent } from '../icon-wrapper/icon-wrapper.component';
 import { By } from '@angular/platform-browser';
 
 describe('IconContainerComponent', () => {
