@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { IconWrapperComponent } from "../icon-wrapper/icon-wrapper.component";
 
 @Component({
@@ -9,5 +9,7 @@ import { IconWrapperComponent } from "../icon-wrapper/icon-wrapper.component";
   styleUrl: './icon-container.component.scss'
 })
 export class IconContainerComponent {
+
+  @Input() iconSrc: string = '';
 
 }

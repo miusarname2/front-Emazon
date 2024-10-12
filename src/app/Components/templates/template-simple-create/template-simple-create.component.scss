@@ -9,20 +9,6 @@ body {
     display: flex;
 }
 
-.sidebar-item {
-    margin-bottom: 16px;
-}
-
-.notification-dot {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 10px;
-    width: 10px;
-    background-color: #9D3FE7;
-    border-radius: 50%;
-}
-
 .form-container {
     flex-grow: 1;
     display: flex;
@@ -95,6 +81,11 @@ body {
 *,
 ::after,
 ::before,
-input{
+input {
     font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.heightTable {
+    max-height: 361px;
+    overflow-y: auto;
 }

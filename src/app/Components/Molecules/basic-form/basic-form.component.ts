@@ -11,7 +11,7 @@ export class BasicFormComponent {
 
   @Input() public endOfPlaceHolder: string = '';
   @Input() public sendButtonText: string = '';
-  public placeHolderFirst: string = '';
+  public placeHolderFirst: string = 'Nombre de ';
 
   // Se ejecuta cada vez que cambia el valor del input
   ngOnChanges(changes: SimpleChanges) {

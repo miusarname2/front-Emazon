@@ -9,6 +9,11 @@
     cursor: pointer;
 }
 
+.svg-path {
+    fill: currentColor;
+    /* Usa el color actual del texto */
+}
+
 .icon {
     color: white;
 }
