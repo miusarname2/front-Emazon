@@ -1,0 +1,13 @@
+<div class="flex-container">
+    <app-sidebar-mini/>
+
+    <div class="form-container">
+        <div class="form-content">
+            <h2 class="form-title">{{title}}</h2>
+            <app-basic-form [endOfPlaceHolder]="placeholder" [sendButtonText]="buttonText"></app-basic-form>
+        </div>
+        <div class="heightTable overflow-y-auto m-4">
+            <app-table-example/>
+        </div>
+    </div>
+</div>
