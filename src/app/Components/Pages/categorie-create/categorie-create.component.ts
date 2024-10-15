@@ -10,7 +10,7 @@ import { TemplateSimpleCreateComponent } from "../../templates/template-simple-c
   standalone: true,
   imports: [BasicFormComponent, IconSectionComponent, IconWrapperComponent, SidebarMiniComponent, TemplateSimpleCreateComponent],
   templateUrl: './categorie-create.component.html',
-  styleUrl: './categorie-create.component.scss'
+  styleUrls: ['./categorie-create.component.scss']
 })
 export class CategorieCreateComponent {
 

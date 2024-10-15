@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { TemplateSimpleCreateComponent } from './template-simple-create.component';
 import { By } from '@angular/platform-browser';
 import { SidebarMiniComponent } from '../../Organisms/sidebar-mini/sidebar-mini.component';

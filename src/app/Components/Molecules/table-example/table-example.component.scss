@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+th {
+    background-color: #F5F3F7;
+    border-bottom: 1px solid #E5E0EB;
+    border-top: 1px solid #E5E0EB;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F3F7;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-error {
+    background-color: #D51A52;
+}
+
+.status-warning {
+    background-color: #FF9500;
+}
+
+.action-button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #666;
+}
+
+th .resizer {
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+}

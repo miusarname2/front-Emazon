@@ -6,7 +6,7 @@ import { IconWrapperComponent } from "../icon-wrapper/icon-wrapper.component";
   standalone: true,
   imports: [IconWrapperComponent],
   templateUrl: './icon-container.component.html',
-  styleUrl: './icon-container.component.scss'
+  styleUrls: ['./icon-container.component.scss']
 })
 export class IconContainerComponent {
 

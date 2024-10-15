@@ -1,0 +1,163 @@
+<table>
+    <thead>
+        <tr>
+            <th id="tableHeader">
+                id
+            </th>
+            <th>nombre</th>
+            <th>Descripcion</th>
+        </tr>
+    </thead>
+    <!-- <tbody>
+        <tr>
+            <td>Moscow</td>
+            <td>01.09.2021</td>
+            <td>100</td>
+            <td>1...50</td>
+            <td><span class="status-dot status-error"></span> Error</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Arkhangelsk</td>
+            <td>23.08.2021</td>
+            <td>48123546</td>
+            <td>1...4530</td>
+            <td><span class="status-dot status-warning"></span> Warning</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Moscow</td>
+            <td>01.09.2021</td>
+            <td>100</td>
+            <td>1...50</td>
+            <td><span class="status-dot status-error"></span> Error</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Arkhangelsk</td>
+            <td>23.08.2021</td>
+            <td>48123546</td>
+            <td>1...4530</td>
+            <td><span class="status-dot status-warning"></span> Warning</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Moscow</td>
+            <td>01.09.2021</td>
+            <td>100</td>
+            <td>1...50</td>
+            <td><span class="status-dot status-error"></span> Error</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Arkhangelsk</td>
+            <td>23.08.2021</td>
+            <td>48123546</td>
+            <td>1...4530</td>
+            <td><span class="status-dot status-warning"></span> Warning</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Moscow</td>
+            <td>01.09.2021</td>
+            <td>100</td>
+            <td>1...50</td>
+            <td><span class="status-dot status-error"></span> Error</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Arkhangelsk</td>
+            <td>23.08.2021</td>
+            <td>48123546</td>
+            <td>1...4530</td>
+            <td><span class="status-dot status-warning"></span> Warning</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Moscow</td>
+            <td>01.09.2021</td>
+            <td>100</td>
+            <td>1...50</td>
+            <td><span class="status-dot status-error"></span> Error</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Arkhangelsk</td>
+            <td>23.08.2021</td>
+            <td>48123546</td>
+            <td>1...4530</td>
+            <td><span class="status-dot status-warning"></span> Warning</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Moscow</td>
+            <td>01.09.2021</td>
+            <td>100</td>
+            <td>1...50</td>
+            <td><span class="status-dot status-error"></span> Error</td>
+            <td>
+                <span class="action-button">+</span>
+                <span class="action-button">&times;</span>
+                <span class="action-button">&#9998;</span>
+                <span class="action-button">&#8942;</span>
+            </td>
+        </tr>
+    </tbody> -->
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{ item.id }}</td>
+            <td>{{ item.nombre }}</td>
+            <td>{{ item.descripcion }}</td>
+        </tr>
+    </tbody>
+</table>
