@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './icon-wrapper.component.html',
-  styleUrl: './icon-wrapper.component.scss'
+  styleUrls: ['./icon-wrapper.component.scss']
 })
 export class IconWrapperComponent {
 

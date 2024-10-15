@@ -7,7 +7,7 @@ import { IconWrapperComponent } from "../../Atoms/icon-wrapper/icon-wrapper.comp
   standalone: true,
   imports: [IconContainerComponent, IconWrapperComponent],
   templateUrl: './icon-section.component.html',
-  styleUrl: './icon-section.component.scss'
+  styleUrls: ['./icon-section.component.scss']
 })
 export class IconSectionComponent {
 

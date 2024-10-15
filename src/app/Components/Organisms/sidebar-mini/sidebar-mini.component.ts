@@ -7,7 +7,7 @@ import { IconSectionComponent } from "../../Molecules/icon-section/icon-section.
   standalone: true,
   imports: [IconWrapperComponent, IconSectionComponent],
   templateUrl: './sidebar-mini.component.html',
-  styleUrl: './sidebar-mini.component.scss'
+  styleUrls: ['./sidebar-mini.component.scss']
 })
 export class SidebarMiniComponent {
 
