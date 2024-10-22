@@ -36,12 +36,9 @@ export class BasicFormComponent {
       descripcion: formData.description
     }
     this.apiService.endpoint = this.endpoint;
-    this.apiService.autenticate(environment.username, environment.password).subscribe((response: object) => {
-      console.log(response);
-      this.apiService.postData(newFormData).subscribe((response: object) => {
-        this.datosFormulario.reset();
-        alert('Formulario enviado correctamente');
-      });
+    this.apiService.postData(newFormData).subscribe((response: object) => {
+      this.datosFormulario.reset();
+      alert('Formulario enviado correctamente');
     });
   }
 

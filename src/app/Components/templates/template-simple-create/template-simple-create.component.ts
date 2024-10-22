@@ -2,11 +2,13 @@ import { Component, Input } from '@angular/core';
 import { SidebarMiniComponent } from "../../Organisms/sidebar-mini/sidebar-mini.component";
 import { BasicFormComponent } from "../../Molecules/basic-form/basic-form.component";
 import { TableExampleComponent } from "../../Molecules/table-example/table-example.component";
+import { LoginFormComponent } from '../../Molecules/login-form/login-form.component';
+import { LoginImageComponent } from '../../Molecules/login-image/login-image.component';
 
 @Component({
   selector: 'app-template-simple-create',
   standalone: true,
-  imports: [SidebarMiniComponent, BasicFormComponent, TableExampleComponent],
+  imports: [SidebarMiniComponent, BasicFormComponent, TableExampleComponent,LoginFormComponent,LoginImageComponent],
   templateUrl: './template-simple-create.component.html',
   styleUrls: ['./template-simple-create.component.scss']
 })
